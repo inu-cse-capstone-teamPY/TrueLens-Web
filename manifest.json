@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "TrueEye",
+  "version": "1.0.0",
+  "description": "선택한 텍스트의 진위 여부를 AI로 판별해주는 확장프로그램",
+  "icons": {
+    "128": "asset/icon128.png",
+    "48": "asset/icon48.png",
+    "16": "asset/icon16.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "TrueEye"
+  }
+}
