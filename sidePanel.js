@@ -1,5 +1,5 @@
-// sidepanel.js
-// sidepanel.js
+// sidePanel.js
+// sidePanel.js
 const statusEl = document.getElementById("status");
 const textEl = document.getElementById("selectedText");
 const resultEl = document.getElementById("result");
