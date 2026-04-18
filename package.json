@@ -1,0 +1,29 @@
+{
+  "name": "trueeye_web",
+  "version": "1.0.0",
+  "description": "TrueLens's frontend part.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inu-cse-capstone-teamPY/TrueLens-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inu-cse-capstone-teamPY/TrueLens-Web/issues"
+  },
+  "homepage": "https://github.com/inu-cse-capstone-teamPY/TrueLens-Web#readme",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
